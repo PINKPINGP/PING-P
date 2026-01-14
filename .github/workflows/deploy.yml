@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: npx vite build # 직접 vite 빌드 명령어를 실행합니다.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
