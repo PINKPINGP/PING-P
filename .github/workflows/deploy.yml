@@ -19,11 +19,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # cache 설정을 제거하여 lock 파일 부재 에러를 해결합니다.
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npx vite build # 직접 vite 빌드 명령어를 실행합니다.
+        run: npx vite build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
