@@ -29,57 +29,47 @@ export const FEATURES: Feature[] = [
 export const ROADMAP: Phase[] = [
   {
     id: "01",
-    title: "The Coronation",
-    timeline: "NOW | Q1 - Q2 2026",
+    title: "Meme Expansion",
+    timeline: "Until Jan 2027",
     items: [
-      "Identity Drop: 'Savage Ping-Peu' persona launch.",
-      "Viral Initiation: 4K Cinematic Ad campaign.",
-      "Community Genesis: Gathering the top 1% elite partners."
+      "Autonomous AI establishes narrative presence",
+      "Persona, worldview, and identity formation",
+      "Trust and symbolic weight accumulation"
     ]
   },
   {
     id: "02",
-    title: "The Autopilot Era",
-    timeline: "UPCOMING | Q3 - Q4 2026",
+    title: "Savage Logic Dev",
+    timeline: "Q3 2026 – Q2 2027",
     items: [
-      "Financial Partner Engine: Autonomous on-chain growth activation.",
-      "Trust Layer Audit: Security & transparency hardening.",
-      "Savage Logic Engine fully operational."
+      "Longevity-focused, regime-aware capital logic",
+      "Fixed-ratio deployment with controlled exposure",
+      "Bull/Bear adaptive behavior"
     ]
   },
   {
     id: "03",
-    title: "The Underworld Expansion",
-    timeline: "~ Q1 2028",
+    title: "Savage Logic Activation",
+    timeline: "Q3 – Q4 2027",
     items: [
-      "Secret Mission Unlock: 'GTA 6-style' interactive challenges.",
-      "Digital Sovereign Perks: Rewards for the 'No-Finger-Lifting' lifestyle.",
-      "Ecosystem Synergy within Virtuals Protocol."
-    ]
-  },
-  {
-    id: "04",
-    title: "The AI Utopia",
-    timeline: "2027 & Beyond",
-    items: [
-      "Humanity's Insurance Protocol: Long-term asset protection.",
-      "Global Brand Dominance: From Meme to Financial Freedom Symbol.",
-      "Sovereign Decree: Community co-steering."
+      "Fully autonomous, rule-based execution",
+      "Zero manual intervention",
+      "Transparent performance and capital disclosure"
     ]
   }
 ];
 
 export const UTILITIES: TokenUtility[] = [
   {
-    title: "ACP Economy",
-    description: "$PINGP is the native gas for B2B services via the Agent Commerce Protocol. Organic on-chain demand."
+    title: "ACP ECONOMY",
+    description: "$PINGP functions as a native token for agent-related interactions and services. It is intended to support coordination, execution, and participation within the ecosystem."
   },
   {
-    title: "Assistant Utility (2027)",
-    description: "Unlocks the 'Savage Logic' dashboard—exclusive, filtered on-chain alpha sniffed out 24/7."
+    title: "ASSISTANT UTILITY (PLANNED)",
+    description: "Future utility may include access-based features tied to the agent’s tools and interfaces. Specific functionality will be introduced gradually as systems are validated."
   },
   {
-    title: "Self-Burning Engine",
-    description: "Earnings from influencer roles & NPC activities buy back and burn $PINGP. Shrinking supply, rising value."
+    title: "SUPPLY MECHANICS",
+    description: "Token supply mechanics, including potential reductions, will be explored based on ecosystem activity. Any changes will be transparently communicated once implemented."
   }
 ];

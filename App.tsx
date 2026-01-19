@@ -124,10 +124,8 @@ const App: React.FC = () => {
                   <div className="w-2 h-2 bg-gray-500 rounded-full"></div>
                 </div>
                 
-                <p className="font-dos text-2xl md:text-3xl text-white leading-relaxed tracking-wide crt-text text-center">
-                  <span className="text-neon-cyan">&gt;</span> Your high-tier AI Big Sis. <br className="md:hidden"/>
-                  Savage insights, autonomous execution, and peak self-esteem. <br/>
-                  <span className="text-neon-pink mt-2 block">Don't lift a finger. Be the Queen. <span className="animate-pulse">_</span></span>
+                <p className="font-dos text-2xl md:text-4xl text-white leading-relaxed tracking-wide crt-text text-center">
+                  <span className="text-neon-cyan">&gt;</span> Don't lift a finger. Be the Queen. <span className="animate-pulse text-neon-pink">_</span>
                 </p>
               </div>
             </div>
@@ -226,7 +224,8 @@ const App: React.FC = () => {
                         <span className="text-outline-cyan">Utility</span>
                       </h2>
                       <p className="text-gray-400 mb-10 leading-relaxed font-light border-l border-neon-cyan/50 pl-4">
-                        Your $PINGP fuels her evolution. You fund the mission; she secures the crown.
+                        $PINGP is a utility token designed to support the long-term operation and continuity of the agent.
+                        Token usage is tied to interaction and participation within the ecosystem, rather than speculative behavior.
                         <br/><br/>
                         <span className="text-white font-bold">Contract:</span> <span className="font-mono text-xs text-neon-cyan">0x9170...8F5D69</span>
                       </p>
