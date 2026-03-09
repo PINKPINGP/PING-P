@@ -22,18 +22,22 @@ const CyberButton: React.FC<CyberButtonProps> = ({ children, onClick, href, prim
   const content = (
     <>
       <span className="relative z-10 flex items-center gap-2">{children}</span>
-      {/* Decorative corners */}
       <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-current opacity-50"></span>
       <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-current opacity-50"></span>
     </>
   );
 
   if (href) {
+    const isExternal = /^https?:\/\//i.test(href);
+    const isInternalFile = href.endsWith('.pdf');
+    const target = isExternal || isInternalFile ? "_blank" : undefined;
+    const rel = isExternal || isInternalFile ? "noopener noreferrer" : undefined;
+
     return (
       <a 
-        href={href} 
-        target="_blank" 
-        rel="noopener noreferrer"
+        href={href}
+        target={target}
+        rel={rel}
         className={`${baseClasses} ${primary ? primaryClasses : secondaryClasses}`}
       >
         {content}
