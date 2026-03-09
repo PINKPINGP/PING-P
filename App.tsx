@@ -224,8 +224,7 @@ const App: React.FC = () => {
                         <span className="text-outline-cyan">Utility</span>
                       </h2>
                       <p className="text-gray-400 mb-10 leading-relaxed font-light border-l border-neon-cyan/50 pl-4">
-                        $PINGP is a utility token designed to support the long-term operation and continuity of the agent.
-                        Token usage is tied to interaction and participation within the ecosystem, rather than speculative behavior.
+                        $PINGP is a functional utility token powering the PING-P agent's long-term autonomy and community vibe.
                         <br/><br/>
                         <span className="text-white font-bold">Contract:</span> <span className="font-mono text-xs text-neon-cyan">0x9170...8F5D69</span>
                       </p>

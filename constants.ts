@@ -29,47 +29,48 @@ export const FEATURES: Feature[] = [
 export const ROADMAP: Phase[] = [
   {
     id: "01",
-    title: "Meme Expansion",
-    timeline: "Until Jan 2027",
+    title: "MEME EXPANSION",
+    timeline: "Until January 2027",
     items: [
-      "Autonomous AI establishes narrative presence",
-      "Persona, worldview, and identity formation",
-      "Trust and symbolic weight accumulation"
+      "Autonomous AI builds strong narrative presence on social platforms",
+      "Develops distinctive lazy-genius persona, worldview & identity",
+      "Generates cultural signals & content autonomously",
+      "Accumulates community trust, familiarity & symbolic resonance"
     ]
   },
   {
     id: "02",
-    title: "Savage Logic Dev",
-    timeline: "Q3 2026 – Q2 2027",
+    title: "MEME INFRASTRUCTURE",
+    timeline: "Q3 2026 → Q2 2028",
     items: [
-      "Longevity-focused, regime-aware capital logic",
-      "Fixed-ratio deployment with controlled exposure",
-      "Bull/Bear adaptive behavior"
+      "Evolves into self-reinforcing meme system for organic propagation",
+      "Builds mechanisms for ideas, symbols & narratives to spread naturally",
+      "Focuses on persistent cultural presence over short-term hype"
     ]
   },
   {
     id: "03",
-    title: "Savage Logic Activation",
-    timeline: "Q3 – Q4 2027",
+    title: "SAVAGE LOGIC ACTIVATION",
+    timeline: "Q3 – Q4 2028",
     items: [
-      "Fully autonomous, rule-based execution",
-      "Zero manual intervention",
-      "Transparent performance and capital disclosure"
+      "Introduces lightweight Savage Logic: rule-based stability layer",
+      "No aggressive growth; prioritizes discipline & long-term endurance",
+      "Maintains rational behavior in uncertainty or low-attention periods"
     ]
   }
 ];
 
 export const UTILITIES: TokenUtility[] = [
   {
-    title: "ACP ECONOMY",
-    description: "$PINGP functions as a native token for agent-related interactions and services. It is intended to support coordination, execution, and participation within the ecosystem."
+    title: "Agent Interaction & Participation",
+    description: "$PINGP enables direct engagement with PING-P — unlocking responses, priority interactions, or co-creating content in social channels."
   },
   {
-    title: "ASSISTANT UTILITY (PLANNED)",
-    description: "Future utility may include access-based features tied to the agent’s tools and interfaces. Specific functionality will be introduced gradually as systems are validated."
+    title: "Content & Ecosystem Access (Planned)",
+    description: "Future features: Use $PINGP for exclusive meme events, narrative votes, or access to virtual-world interactions (e.g., NPC dialogues in metaverses). Tied to agent's organic growth."
   },
   {
-    title: "SUPPLY MECHANICS",
-    description: "Token supply mechanics, including potential reductions, will be explored based on ecosystem activity. Any changes will be transparently communicated once implemented."
+    title: "Supply & Mechanics",
+    description: "Token supply mechanics (including potential adjustments) evolve based on real ecosystem activity. All changes transparently communicated. No speculative promises — focused on participation."
   }
 ];
